@@ -11,8 +11,8 @@
    
 </head>
 <body>
-      <div id="index" style="width:100%;overflow-x: hidden;">
-        <nav class="navbar navbar-default">
+      <div id="download" style="width:100%;overflow-x: hidden;">
+        <nav class="navbar navbar-default" id="rightpad" class="rightpad" :style="{'padding-right':num + 'px'}">
             <div class="container">
               <!-- Brand and toggle get grouped for better mobile display -->
               <div class="navbar-header">
@@ -23,7 +23,7 @@
                   <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">
-                  <img src="image/sskt_logo.png" class="logo" alt="">
+                  <img src="image/sskt_logo.png" class="logo img-responsive" alt="">
                 </a>
               </div>
           
@@ -43,16 +43,32 @@
                     <li class=""><a href="#">下载<img src="image/dqzt.png" alt="" class=""></a></li>
                     <li class="" style="margin-right:50px;"><a href="#">关于我们</a></li>
 
-                  <li class="" ><a href="#" style="">免费试用</a></li>
-                  <li class="" ><a href="#" style="">登录</a></li>
+                  <li class="" ><a href="#">免费试用</a></li>
+                  <li class="" ><a href="./login.html">登录</a></li>
                   <li class="" ><a href="#" style="padding:15px 0px 15px 15px;">13598096793</a></li>                  
                 </ul>
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
-
-     
-       
+        <section>
+            <div class="container-fluid padclose">
+                <div class="row bgbanner">
+                    <div class="col-xs-6" style="position:relative;height:100%;">                      
+                         <img class="banimg" src="image/download/bannerimg.png"/>
+                    </div>
+                    <div class="col-xs-5 col-xs-offset-1" style="position:relative;height:100%;">
+                        <div class="textbox">
+                                <h1 class="bigfont">学生端下载：</h1>
+                                <div class="btn"><img src="image/download/win.png" class="imgs" alt="">&nbsp;<div class="sisbfont">Windows</div></div>
+                                <div class="btn"><img src="image/download/apple.png" class="imgapple" alt="">&nbsp;<div class="sisbfont">Windows</div></div>
+                                <div class="btn"><img src="image/download/mobile.png" class="imgmoble" alt="">&nbsp;<div class="sisbfont">Windows</div></div>
+                                <h1 class="bigfont" style="margin-top:30px;">老师端下载：</h1>
+                                <div class="btn"><img src="image/download/win.png" class="imgs" alt="">&nbsp;<div class="sisbfont">Windows</div></div>
+                        </div>                        
+                    </div>
+                </div>                    
+            </div>
+        </section>
         
         <footer class="foot">
                 <div class="container">
@@ -112,14 +128,45 @@
 <script src="js/vue.min.js"></script>
 <script>
     var app = new Vue({
-    el: '#index',
+    el: '#download',
     data: {
-     
+        num:17
     },
     methods:{
-     
+         getScrollbarWidth() {//计算滚动条宽度
+            var scrollDiv = document.createElement("div");
+            scrollDiv.style.cssText = 'width: 99px; height: 99px; overflow: scroll; position: absolute; top: -9999px;';
+            document.body.appendChild(scrollDiv);
+            var scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;
+            document.body.removeChild(scrollDiv);
+            return scrollbarWidth;
+        },
+         hasScrollbar() {//是否有滚动条
+            return document.body.scrollHeight > (window.innerHeight || document.documentElement.clientHeight);
+        },
+        setRightpad(){ //是否增加导航栏右内边距           
+            var isMobile = (document.documentElement.clientWidth || document.body.clientWidth) < 768; 
+         
+            if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){//移动设备清除导航栏右内边距
+                this.num = 0;  
+                return false;          
+            }            
+            if(!this.hasScrollbar()){ //没有滚动条增加内边距                         
+                this.num = this.getScrollbarWidth();                
+            }else{                
+                this.num = 0;
+            }
+                            
+        },
+    },
+    created(){
+        this.setRightpad();
     }
   })
+  window.onload = function(){   
+   
+  }
+
  
 </script>
 </body>

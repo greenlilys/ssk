@@ -1,0 +1,30 @@
+
+.rightpad{padding-right:17px;}
+.bgbanner{background:url('../image/download/loadm.jpg') no-repeat;padding:0 220px;height:644px;}
+.btn{background:#fff;width:260px;height:64px;border-radius:8px;margin-top:20px;display:block;padding-left:6px;}
+.bigfont{font-size:30px;color:#fff;}
+.banimg{position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;width:80%;height:auto;}
+.textbox{height:70%;width:100%;position:absolute;top:0;bottom:0;margin:auto;}
+.sisbfont{font-size:24px;vertical-align:middle;line-height:50px;display:inline-block;color:#479239;}
+
+@media screen and (max-width: 768px){
+    #rightpad{padding-right:0;}
+    .bgbanner{background:url('../image/download/load.jpg') no-repeat;padding:0;height:430px;}
+    .btn{background:#fff;width:110px;height:34px;border-radius:8px;margin-top:20px;display:block;}
+    .bigfont{font-size:18px;color:#fff;}
+    .banimg{width:100%;}
+    .sisbfont{font-size:14px;line-height:24px;}
+    .imgs{height:18px;width:18px;position:relative;top:-1px;}
+    .imgapple{height:20px;width:18px;position:relative;top:-1px;}
+    .imgmoble{height:22px;width:16px;position:relative;top:-2px;}
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    .bgbanner{background:url('../image/download/load.jpg') no-repeat;padding:0;height:470px;}
+    .btn{background:#fff;width:140px;height:44px;border-radius:8px;margin-top:20px;display:block;}
+    .bigfont{font-size:22px;color:#fff;}
+    .banimg{width:80%;}
+    .sisbfont{font-size:14px;line-height:28px;}
+}
+@media screen and (min-width:992px) and (max-width:1300px){
+    .bgbanner{padding:0;}
+}
