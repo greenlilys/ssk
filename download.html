@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/download.css">
+    <title>随身课堂</title>
+   
+</head>
+<body>
+      <div id="index" style="width:100%;overflow-x: hidden;">
+        <nav class="navbar navbar-default">
+            <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                  <img src="image/sskt_logo.png" class="logo" alt="">
+                </a>
+              </div>
+          
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">                    
+                </ul>               
+                <ul class="nav navbar-nav navbar-right headul" onclick="handlechange(event)">
+                  <!-- <template v-for="(item,index) in arr">
+                      <li class="" @click="tabchange(index)"><a href="#">{{item}} 
+                          <img src="image/dqzt.png" alt="" class="actimg" v-show="current == index">
+                         </a>
+                      </li>
+                  </template> -->
+                    <li class=""><a href="./index.html">首页</a></li>
+                    <li class=""><a href="./product.html">产品介绍</a></li>
+                    <li class=""><a href="#">下载<img src="image/dqzt.png" alt="" class=""></a></li>
+                    <li class="" style="margin-right:50px;"><a href="#">关于我们</a></li>
+
+                  <li class="" ><a href="#" style="">免费试用</a></li>
+                  <li class="" ><a href="#" style="">登录</a></li>
+                  <li class="" ><a href="#" style="padding:15px 0px 15px 15px;">13598096793</a></li>                  
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+     
+       
+        
+        <footer class="foot">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12 borright">
+                  
+                         <div class="btnbox">
+                           <span class="text-center">大客户定制</span><span class="text-center" style="margin-left:20px;">渠道合作</span>
+                         </div>
+                         <div class="alink">
+                             <a>友情链接：</a>
+                             <a href="http://www.chaoyuyun.com/">超预云 |</a>
+                               <a href="http://www.guojing.net/">国经网络 |</a>
+                               <a href="http://www.friendqq.com/">广州泛德 |</a>
+                               <a href="http://www.91chaoyu.com/">北京超预 |</a>
+                               <a href="http://www.51chaoyu.com/">超预明星 |</a>
+                               <a href="http://www.xianzaixue.com/">英语现在学 |</a>
+                               <a href="http://www.jukeyou.net/">深圳聚客友</a>
+                         </div>
+                     
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                      <div class="row rightcon">
+                         <div class="col-sm-6 col-xs-12 addre">                         
+                               <div class="clearfix">
+                                 <p class="pull-left">唯一运营商：</p>
+                                 <p class="pull-left">上海云友信息软件有限公司<br/>（腾讯云授权服务中心）</p>
+                               </div>
+                               <p>地址：上海市普陀区常德路1339号B座9层</p>                          
+                         </div>
+                           <div class="col-sm-6 col-xs-12">
+                             <article class="phonebox">
+                                 <p> <img src="image/zuoji.png" alt=""><span class="textjus"> 服务热线：400-8010-352</span></p>
+                                 <p><img src="image/mphone.png" alt=""><span class="textjus"> 18621969418/胡经理</span> </p>
+                                 <p><img src="image/mphone.png" alt=""><span class="textjus"> 13248283855/王经理</span></p>
+                             </article> 
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                </div>
+              </footer>
+              <section class="banquan">
+                 <div class="row">
+                     <h2 class="text-center fontset">©上海凭加信息科技有限公司沪ICP备15038082号</h2>
+                   </div>
+              </section>
+       
+            
+                              
+          
+
+         
+        </div>
+<script src="js/jquery.min.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
+<script src="js/vue.min.js"></script>
+<script>
+    var app = new Vue({
+    el: '#index',
+    data: {
+     
+    },
+    methods:{
+     
+    }
+  })
+ 
+</script>
+</body>
+</html>

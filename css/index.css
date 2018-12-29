@@ -1,0 +1,54 @@
+
+/* 方案 */
+.fangan{margin-top:64px;}
+.arrowline{position: absolute; right: 0; width:264px;left: 0;margin:0 auto; }
+.line{background-color:#479239;width:100px;height:2px;display:inline-block;vertical-align:top;}
+.linebox{position:relative;height:14px;margin-top:14px;}
+.itembox{border:1px solid #479239;border-radius:8px;padding-top:40px;height:440px;}
+.fangdetail{margin-top:60px;}
+.fencontent{padding:0 100px;}
+.itembox p{padding:0 24px;font-size:16px;}
+
+  /* 部署 */
+  .bushu{margin-top:50px;}
+  .bufencontent,.huobancontent{padding:0 124px;}
+  .bufencontent .row{background:#ecf4eb;padding:50px 0;margin:0;}
+ /* 场景 */
+ .changjing{background:#f9f9f9;padding:70px 0;}
+ .changcontent{padding:0 124px;}
+ .changitem,.changjing,.huoban{margin-top:80px;}
+ .changitemp{font-size:18px;margin-top:22px;}
+ .changbotp{margin-top:14px;margin-bottom:4px;}
+ /* 合作伙伴 */
+
+ .huobancontent .row{margin:0;}
+.huotle{padding-top:34px;}
+.huocon{margin:16px 0;}
+.mpad{background:#479239;border-radius:8px;padding-bottom:100px;}
+.imgbox{position:relative;top:-70px;}
+.yiyan{padding:34px 0;background:#f8f8f8;}
+.zhuce{color:#479239;padding:12px 20px;border:1px solid #479239;border-radius:8px;}
+/* 底部 */
+
+
+  @media screen and (max-width: 768px) {  
+    .mjianju{
+        margin-top:20px;
+    }
+    .changjing,.huoban{margin-top:50px;}
+    .itembox p{padding:0 15px;}
+    .fencontent{padding:0;}
+    .changcontent{padding:0 15px;}
+    .bufencontent,.huobancontent{padding:0 24px;}
+    .mtop{margin-top:20px;}    
+    
+    
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    .mjianju{
+        margin-top:20px;
+    }
+    .bufencontent,.huobancontent{padding:0 24px;}
+    .mtop{margin-top:20px;}
+   
+  }
