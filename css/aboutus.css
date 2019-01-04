@@ -1,0 +1,164 @@
+/* banner */
+.banner {
+	padding: 0;
+}
+
+.motitle {
+	margin: 50px 0;
+	margin-top: 80px;
+}
+
+.motitle p {
+	display: inline-block;
+	border-bottom: 3px solid #0E9427;
+	padding-bottom: 5px;
+}
+
+/* 模块 */
+.chanpin {
+	margin-top: 60px;
+	background: #f9f9f9;
+	padding: 70px 0;
+}
+
+.chantext {
+	margin-top: 20px;
+}
+
+.chanpincont {
+	padding: 0 120px;
+}
+
+.imgbox {
+	margin-top: 40px;
+}
+
+.mtop {
+	margin-top: 30px;
+}
+
+.textbox {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 260px;
+	top: 124px;
+}
+
+.textbox p {
+	color: #646464;
+	margin-top: 10px;
+	line-height: 24px;
+}
+
+/* 部署 */
+.bushu {
+	margin-top: 70px;
+}
+
+.bufencontent {
+	padding: 0 174px;
+}
+
+.mocont {
+	margin-top: 40px;
+	padding-bottom: 50px;
+	border-bottom: dashed 1px #479239;
+}
+
+.siyou {
+	float: right;
+}
+
+.conp {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.conp p {
+	text-indent: 2em;
+	text-align: justify;
+	line-height: 35px;
+	font-size: 16px;
+	color: #777;
+}
+
+.centpic {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 80px;
+}
+
+.aboutus .contact {
+	/* width: 830px; */
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.aboutus .box {
+	border: 1px solid #EBEBEB;
+	border-radius: 5px;
+	height: 400px;
+	color: #777;
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 120px;
+	box-shadow: 0px 18px 38px -10px #ccc;
+}
+
+.aboutus .box .top {
+	padding: 35px 40px;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #C8C8C8;
+}
+
+.aboutus .box .top .title {
+	font-size: 20px;
+	padding-bottom: 10px;
+	display: block;
+}
+
+.aboutus .box .top ul {}
+
+.aboutus .box .top ul li {
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.aboutus .box .top ul li img {
+	margin: 0 auto;
+}
+
+.aboutus .box .bot {
+	padding: 20px 40px;
+	font-size: 16px;
+}
+
+.aboutus .box .bot ul li {
+	line-height: 30px;
+}
+
+.aboutus .box .bot ul li img {
+	display: inline-block;
+}
+
+.aboutus .box .bot ul li .imgSpan {
+	padding-left: 13px;
+}
+.aboutus .box .bot ul li .imgSpan2 {
+	padding-left: 4px;
+}
+
+.aboutus .box .bot ul li span {
+	padding-left: 30px;
+}
+
+@media screen and (max-width: 768px) {
+	.aboutus .box {
+		height: auto;
+	}
+}

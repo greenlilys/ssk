@@ -40,11 +40,24 @@
                     <li class=""><a href="./index.html">首页<img src="image/dqzt.png" alt="" class=""></a></li>
                     <li class=""><a href="./product.html">产品介绍</a></li>
                     <li class=""><a href="./download.html">下载</a></li>
-                    <li class="" style="margin-right:50px;"><a href="#">关于我们</a></li>
+                    <li class="ours" style="margin-right:50px;">
+                        <a href="./aboutus.html" class="guanwo">关于我们</a>
+                        <ul class="tanchuang">
+                            <li><a href="./aboutus.html" class="activs"> 公司简介</a></li>
+                            <li><a href="./news.html">新闻动态</a></li>
+                            <li><a href="">帮助文档</a></li>
+                            <li><a href="">服务报价</a></li>
+                        </ul>
+                      </li>
 
-                  <li class="" ><a href="#" style="">免费试用</a></li>
-                  <li class="" ><a href="./login.html" style="">登录</a></li>
-                  <li class="" ><a href="#" style="padding:15px 0px 15px 15px;">13598096793</a></li>                  
+                    <li class="" ><a href="./tryout.html" class="mianfei">免费试用</a></li>
+                    <li class="" ><a href="./login.html" class="dengs">登录</a></li>
+                  <li class="headphone" >
+                    <a href="#" style="padding:15px 0px 15px 15px;">
+                       <img src="image/index/phone.png" class="phoneimg" style="width:15px;height:15px;position:relative;top:0;bottom:0;margin:auto;" alt="">
+                       &nbsp;13598096793
+                    </a>
+                </li>                  
                 </ul>
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -303,6 +316,7 @@
 <script src="js/jquery.luara.0.0.1.min.js"></script>
 <script src="bootstrap/bootstrap.min.js"></script>
 <script src="js/vue.min.js"></script>
+<script src="js/common.js"></script>
 <script>
     var app = new Vue({
     el: '#index',

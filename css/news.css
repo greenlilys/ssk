@@ -1,0 +1,9 @@
+.dongtai{font-size:20px;color:#479239;padding-left:20px;display:flex;flex-direction:row;align-items:center;margin-top:34px;padding-bottom:20px;
+border-bottom:1px solid #e6e6e6;}
+.borderleft{height:20px;width:4px;background:#479239;display:inline-block;}
+.texts{margin-left:20px;}
+.newscontent{padding:0 150px;}
+.listbox{padding:20px 30px;color:#787878;}
+.listbox span{font-size:16px;padding:8px 12px;cursor:pointer;}
+.listbox span:nth-child(2){margin-left:20px;}
+.active{background:#479239;color:#fff;}

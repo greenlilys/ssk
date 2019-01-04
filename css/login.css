@@ -1,27 +1,31 @@
-.loginbox{background:url('../image/login/loginpc.jpg') no-repeat center;background-size:cover;height:86%;}
+.loginbox{background:url('../image/login/loginpc.jpg') no-repeat center;background-size:cover;height:90%;}
 .logobox{padding-top:34px;height:14%;}
 .contentbox{height:86%;position:relative;}
-.logincontent{width:400px; height:450px;background:#fff;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;border-radius:8px;overflow:hidden;
-line-height:60px;}
+.logincontent{width:400px; height:450px;background:#fff;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;border-radius:8px;overflow:hidden;}
 .bigbox{height:100%;}
-.logintitlt{font-size:26px;color:#fff;background:#479239;}
-.username,.password{width:90%;height:60px;border-radius:4px;padding-left:20px;box-shadow:none;border:none;border:1px solid #ccc;outline:none;}
+.logintitlt{font-size:26px;color:#fff;background:#479239;height:60px;line-height:60px;}
+.username,.password{width:80%;height:50px;line-height:50px;border-radius:4px;padding-left:20px;box-shadow:none;border:none;border:1px solid #ccc;outline:none;}
 .username{margin-top:50px;}
 .password{margin-top:30px;}
-.rember{width:90%; height:40px;line-height:40px; vertical-align:middle;}
-.remcheck{background:transparent;outline:none;
-    vertical-align:text-bottom;
-}
-.denglu{width:90%;height:60px;background:#479239;border-radius:12px;line-height:60px;color:#fff;text-align:center;font-size:20px;}
-
+.rember{width:80%; height:40px;line-height:40px;}
+.remcheck{background:transparent;outline:none;vertical-align:text-bottom;}
+.denglu{width:80%;height:60px;background:#479239;border-radius:6px;line-height:60px;color:#fff;font-size:20px;margin:0 auto;text-align:center;
+border:none;outline:none;margin-top:24px;}
+.zhanghao{width:80%;margin-top:10px;}
+.zhuce{color:#479239;margin-left:4px;}
+.zhanghao span{cursor:pointer;}
 
 @media screen and (max-width: 768px){
-    .loginbox{background:url('../image/login/loginm.jpg') no-repeat center;background-size:cover;height:584px;}
+    .loginbox{background:url('../image/login/loginm.jpg') no-repeat center;background-size:cover;height:86%;}
     .logincontent{width:340px; height:360px;}
+    .logintitlt{font-size:20px;height:50px;line-height:50px;}
     .mcenter{display:block;margin:auto;}
     .logobox{padding-top:54px;}
-    .username,.password{height:50px;}
+    .username,.password{height:40px;line-height:40px;}
+    .username{margin-top:40px;}
     .rember{margin-top:0;}
+    .denglu{font-size:16px;height:40px;line-height:40px;}
+    
 }
 
 @media screen and (min-width:768px) and (max-width:992px){
