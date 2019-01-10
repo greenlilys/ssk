@@ -1,0 +1,39 @@
+.paddingdou{padding:0 140px;}
+.bgimg{background:url('../image/bigcus/bannerpc.png') no-repeat;height:328px;}
+.kuang{width:76px;height:72px;}
+.imgbox{position:relative;}
+.imgbox h1{font-size:34px;color:#fff;position:absolute;top:16px;left:20px;}
+.system{font-size:18px;color:#fff;line-height:28px;padding-left:20px;margin-top:20px;}
+.shenqing{font-size:20px;color:#fff;margin-left:20px;border:1px solid #fff;padding:6px 10px;background:transparent;border-radius:8px;margin-top:20px}
+/* 图标列表 */
+.listitem{margin-top:80px;}
+.listitem h1{font-size:24px;margin-bottom:50px;}
+.listitem h2{font-size:20px;color:#71c16b;line-height:24px;margin-top:10px;}
+.listitem .row{margin-bottom:50px;}
+.fangan{margin-bottom:24px;}
+.padtop{padding-top:84px;}
+.wenben{line-height:32px;}
+/* 团队 */
+.tuandui{background:url('../image/bigcus/14.png') no-repeat;background-size: 100% auto;padding-top: 35.5%; width:100%;height: 0px;position:relative;}
+.kuangyuan{position:absolute;top:60px;left:50%;transform:translateX(-50%);}
+.zhuanye{font-size:24px;}
+.textzhuan{line-height:26px;padding:30px 30px;}
+.textbox{position:absolute;top:-10px;}
+/* 合作 */
+.hezuobox{padding:60px 0;}
+.hezuo{font-size:24px;padding-bottom:50px;}
+
+@media screen and (max-width: 768px){
+    .bgimg{background:url('../image/bigcus/bannerm.png') no-repeat;height:332px;}
+    .listitem{margin-top:50px;}
+    .listitem h2{font-size:12px;}
+     .listitem img{width:50px;}
+     .paddingdou{padding:0 24px;}
+     .padtop{padding:50px 0px;}
+     .textzhuan{line-height:32px;padding:30px 24px;}
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .listitem{margin-top:50px;}
+    .paddingdou{padding:0 24px;}
+}

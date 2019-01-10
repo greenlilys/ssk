@@ -25,5 +25,10 @@ $(function(){
         }) 
             
     } 
+
+    $('.dengs').click(function(){
+        window.open('http://guanli.suishenketang.com/','_blank');
+        return false;
+    })
     
 })

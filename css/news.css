@@ -7,3 +7,20 @@ border-bottom:1px solid #e6e6e6;}
 .listbox span{font-size:16px;padding:8px 12px;cursor:pointer;}
 .listbox span:nth-child(2){margin-left:20px;}
 .active{background:#479239;color:#fff;}
+
+.listitem{padding:10px 15px;color:#787878;border-bottom:#e6e6e6 1px solid;cursor:pointer;}
+.titles{font-size:20px;color:#479239;line-height:40px;}
+.textcon{line-height:24px;margin-top:20px;text-align:justify;}
+.time{font-size:14px;}
+
+.foot{margin-top:100px;}
+.titletiandi{font-size:20px;color:#479239;}
+.contentnew{color:#787878;padding-top:30px;display:none;padding:0 30px;}
+.newtime{margin:20px 0 30px 0;}
+
+@media screen and (max-width: 768px){
+    .newscontent{padding:0;}
+    .textcon{margin-top:0px;}
+    .titles{line-height:60px;}
+    .foot{margin-top:30px;}
+}

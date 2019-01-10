@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	font-family:"Microsoft YaHei";
+	}
+a{
+	text-decoration:none;
+	color:#000;
+	}
+/**--------------头部样式开始-----------------**/
+.top{
+	height:58px;
+	}
+.top_inline{
+	float:left;
+	}
+.top_inline .top_logo{
+	margin-left:250px;
+	margin-top:12px;
+	transform:scale(0.7);//设置缩放比例
+	-ms-transform:scale(0.7);
+	-webkit-transform:scale(0.7);
+	-o-transform:scale(0.7);
+	-moz-transform:scale(0.7);
+	}
+.top_center{
+	width:400px;
+	height:50px;
+	margin-left:200px;
+	}
+.top_center span{
+	display:block;
+	float:left;
+	margin-top:22px;
+	}
+.top_center img{
+	width:60px;
+	}
+.top_inline .top_title1{
+	font-family:"Microsoft YaHei";
+	font-size:14px;
+	width:60px;
+	display:inline;
+	}
+.top_line1{
+	margin-left:-46px;
+	margin-bottom:-16px;
+	display:none;
+	}
+.top_inline .top_title1:hover .top_line1{
+	display:inline;
+	}
+.top_line2{
+	margin-bottom:4px;
+	display:none;
+	}
+.top_inline .top_title2{
+	font-family:"Microsoft YaHei";
+	font-size:14px;
+	width:60px;
+	}
+.top_inline .top_title2:hover .top_line2{
+	display:inline;
+	}
+.top_line3{
+	margin-left:-46px;
+	margin-bottom:-16px;
+	display:none;
+	}
+.top_inline .top_title3{
+	font-family:"Microsoft YaHei";
+	font-size:14px;
+	width:60px;
+	}
+.top_inline .top_title3:hover .top_line3{
+	display:inline;
+	}
+.top_line4{
+	margin-left:-60px;
+	margin-bottom:-16px;
+	display:none;
+	}
+.top_inline .top_title4{
+	font-family:"Microsoft YaHei";
+	font-size:14px;
+	width:60px;
+	}
+.top_inline .top_title4:hover .top_line4{
+	display:inline;
+	}
+.top_line5{
+	margin-left:-60px;
+	margin-bottom:-16px;
+	display:none;
+	}
+.top_inline .top_title5{
+	font-family:"Microsoft YaHei";
+	font-size:14px;
+	width:60px;
+	}
+.top_inline .top_title5:hover .top_line5{
+	display:inline;
+	}
+.top_right{
+	width:300px;
+	height:20px;
+	margin-top:20px;
+	}
+.try{
+	float:left;
+	width:65px;
+	height:25px;
+	color:#009637;
+	border:1px solid #009637;
+	text-align:center;
+	font-size:14px;
+	border-radius:3px;
+	line-height:25px;
+	}
+.login{
+	float:left;
+	width:40px;
+	height:26px;
+	background-color:#009637;
+	text-align:center;
+	font-size:14px;
+	border-radius:3px;
+	color:#fff;
+	margin-left:10px;
+	line-height:25px;
+	}
+.top_400{
+	margin-left:10px;
+	margin-top:5px;
+	}
+	/**--------------头部样式结束----------------**/

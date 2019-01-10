@@ -1,0 +1,17 @@
+.headbox{font-size:30px;height:200px;background:#82c878;color:#fff;display:flex;flex-direction:row;justify-content:center;align-items:center;}
+.kai{color:#479239;padding:10px 20px;background:#fff;border-radius:8px;font-size:24px;line-height:24px;margin-left:20px;}
+td{border:1px solid #fff;}
+td{padding:14px 0;}
+table tr td{border:1px solid #e6e6e6;}
+table tr:nth-child(1),table tr:nth-child(2){border:1px solid #fff;}
+table tr:nth-child(2n){background:#f9f9f9;}
+table tr td:nth-child(1){color:#479239;}
+table tr:nth-child(1) td,table tr:nth-child(2) td{color:#fff;}
+.tablebox{margin-top:80px;}
+.shuoming{ margin-top:20px;  display:block; color:#479239;line-height:28px;padding-bottom:50px;}
+@media screen and (max-width: 768px){
+   .headbox{font-size:20px;}
+   .kai{font-size:16px;padding:6px 10px;margin-top:20px;}
+   .tablebox{margin-top:20px;}
+   .shuoming{padding:0 24px;margin-bottom:20px;}
+}

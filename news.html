@@ -12,7 +12,7 @@
 	</head>
 	<body>
 		<div id="index" style="width:100%;overflow-x: hidden;">
-			<nav class="navbar navbar-default rightpad" :style="{'padding-right':num + 'px'}">
+			<nav class="navbar navbar-default ding" :style="{'padding-right':num + 'px'}">
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
@@ -24,7 +24,7 @@
 							<span class="icon-bar"></span>
 						</button>
 						<a class="navbar-brand" href="#">
-							<img src="image/sskt_logo.png" class="logo" alt="">
+							<img src="image/sskt_logo.png" class="logo img-responsive" alt="">
 						</a>
 					</div>
 
@@ -32,13 +32,7 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
 						</ul>
-						<ul class="nav navbar-nav navbar-right headul">
-							<!-- <template v-for="(item,index) in arr">
-                      <li class="" @click="tabchange(index)"><a href="#">{{item}} 
-                          <img src="image/dqzt.png" alt="" class="actimg" v-show="current == index">
-                         </a>
-                      </li>
-                  </template> -->
+						<ul class="nav navbar-nav navbar-right headul">						
 							<li class=""><a href="./index.html">首页</a></li>
 							<li class=""><a href="./product.html">产品介绍</a></li>
 							<li class=""><a href="./download.html">下载</a></li>
@@ -47,13 +41,13 @@
 								<ul class="tanchuang">
 										<li> <a href="./aboutus.html">公司简介</a></li>
 										<li><a href="./aboutus.html" class="activs">新闻动态</a></li>
-										<li>帮助文档</li>
-										<li>服务报价</li>
+										<li>  <a href="./ServiceSupport/helpDocument.html">帮助文档</a></li>
+										<li> <a href="./serprice.html">服务报价</a>  </li>
 								</ul>
 							</li>
 
 							<li class="" ><a href="./tryout.html" class="mianfei">免费试用</a></li>
-							<li class="" ><a href="./login.html" class="dengs">登录</a></li>
+							<li class="" ><a class="dengs">登录</a></li>
 							<li class="headphone" >
 								<a href="#" style="padding:15px 0px 15px 15px;">
 								<img src="image/index/phone.png" class="phoneimg" style="width:15px;height:15px;position:relative;top:0;bottom:0;margin:auto;" alt="">
@@ -81,7 +75,76 @@
                     </div>
                     <div class="row listbox">
                             <span class="active">行业新闻</span><span>产品动态</span>
-                    </div>
+					</div>
+					<div class="row listitem">
+						<div class="col-sm-3">
+							<img src="./image/news/news1.png" class="img-responsive" alt="">
+						</div>
+						<div class="col-sm-9">
+							<h1 class="titles">“互联网+”开辟中国教育新天地</h1>
+							<p class="textcon fontcon">
+								随着生活水平的不断提高，人们对于教育等公共服务的需求日益扩大，对解决各地教育资源不
+								平衡不充分问题的愿望也更加迫切。
+							</p>
+							<p class="text-right time">2018-11-10</p>
+						</div>
+					</div>
+					<div class="row listitem">
+						<div class="col-sm-3">
+							<img src="./image/news/news2.png" class="img-responsive" alt="">
+						</div>
+						<div class="col-sm-9">
+							<h1 class="titles">“互联网+”开辟中国教育新天地</h1>
+							<p class="textcon fontcon">
+								随着生活水平的不断提高，人们对于教育等公共服务的需求日益扩大，对解决各地教育资源不
+								平衡不充分问题的愿望也更加迫切。
+							</p>
+							<p class="text-right time">2018-11-10</p>
+						</div>
+					</div>
+					<div class="row listitem">
+						<div class="col-sm-3">
+							<img src="./image/news/news3.png" class="img-responsive" alt="">
+						</div>
+						<div class="col-sm-9">
+							<h1 class="titles">“互联网+”开辟中国教育新天地</h1>
+							<p class="textcon fontcon">
+								随着生活水平的不断提高，人们对于教育等公共服务的需求日益扩大，对解决各地教育资源不
+								平衡不充分问题的愿望也更加迫切。
+							</p>
+							<p class="text-right time">2018-11-10</p>
+						</div>
+					</div>
+					<div class="row listitem">
+						<div class="col-sm-3">
+							<img src="./image/news/news4.png" class="img-responsive" alt="">
+						</div>
+						<div class="col-sm-9">
+							<h1 class="titles">“互联网+”开辟中国教育新天地</h1>
+							<p class="textcon fontcon">
+								随着生活水平的不断提高，人们对于教育等公共服务的需求日益扩大，对解决各地教育资源不
+								平衡不充分问题的愿望也更加迫切。
+							</p>
+							<p class="text-right time">2018-11-10</p>
+						</div>
+					</div>
+					<div class="row contentnew">
+						<h1 class="titletiandi text-center">“互联网+”开辟中国教育新天地</h1>
+						<h2 class="text-center fontcon newtime">2018-07-21</h2>
+						<p class="fontcon" style="text-align:justify;line-height:28px;font-size:16px;">
+							随着生活水平的不断提高，人们对于教育等公共服务的需求日益扩大，对解决各地教育资源不平衡不充分问题的愿望也更加迫切。而互联网与教育的深度融合，为满足人们需求、解决各类问题提供了新思路和新途径。
+							今年政府工作报告提出，做大做强新兴产业集群，实施大数据发展行动，加强新一代人工智能研发应用，在教育等多领域推进“互联网+”。同时，要发展网络教育。在这一背景下，“互联网+教育”迅猛发展的大趋势变得更加清晰。
+							直播教学是互联网上涌现出来的一种在线课程模式。它没有地域限制、没有校际差别，只需一根网线，就能实现优质教育资源的共享。如今，这一互联网、信息技术与高等教育结合的产物，正最大限度共享优质课程资源，打破传统教育时空界限和学校围墙，颠覆传统课堂教学方式。
+							近年来，“互联网+教育”推动了农村地区，特别是贫困地区落后贫乏的教学方式逐步向现代化教育手段转变，使中国的教育资源能够更多地实现共享。这些网络课堂的建设与应用，为破解校际教学质量差距大、区域之间发展不平衡等问题提供了有效方案，促进了教育公平，也成为推进教育质量提升的重要引擎。
+							如今，随着互联网在全国的迅速普及，全国中小学互联网接受率从2012年的25%上升到90%，学校网络教学环境明显改善。
+							随着中国特色社会主义进入新时代，中国教育事业也在互联网的推动下，迎来新的发展机会，酝酿新的重大突破。
+					 中共十九大报告指出，我国社会主要矛盾已经转化为人民日益增长的美好生活需要和不平衡不充分的发展之间的矛盾。这种不平衡不充分在教育领域体现得尤其明显。尽管我国信息化建设和数字经济发展位居世界前列，但在文化教育等方面的互联网应用仍有待深化。而“互联网+教育”无疑扩大了优质教育资源覆盖范围，有利于缩小教育差距、促进教育资源的优化配置。
+							专家认为，2018年“互联网+教育”将迎来更加良性的竞争发展态势，人工智能等技术将会渗透到更广泛的教育领域，从而改变教育领域长久以来发展不平衡、不充分的局面。
+						</p>
+					</div>
+
+
+
                 </div>
             </section>
             
@@ -91,7 +154,8 @@
 						<div class="col-md-6 col-sm-12 col-xs-12 borright">
 
 							<div class="btnbox">
-								<span class="text-center">大客户定制</span><span class="text-center" style="margin-left:20px;">渠道合作</span>
+									<span class="text-center"> <a href="./bigcus.html">大客户定制</a></span>
+									<span class="text-center" style="margin-left:20px;">  <a href="./worktogether.html">渠道合作</a></span>
 							</div>
 							<div class="alink">
 								<a>友情链接：</a>
@@ -141,7 +205,7 @@
 		<script src="js/jquery.min.js"></script>
 		<script src="bootstrap/bootstrap.min.js"></script>
 		<script src="js/vue.min.js"></script>
-		<script src="js/common.js"></script>
+		<script src="./js/common.js"></script>
 		<script>
 			 var app = new Vue({
 				el: '#download',
@@ -180,11 +244,16 @@
 				}
 			})
 
-			$(function(){
+			$(function(){//选项卡切换
 				$('.listbox span').click(function(){
 					$(this).siblings().removeClass('active');
 					$(this).addClass('active');
 				})
+			})
+
+			$('.listitem').click(function(){
+				$('.listitem').hide();
+				$('.contentnew').show();
 			})
 
 			

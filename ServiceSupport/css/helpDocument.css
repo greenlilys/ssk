@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	/* font-family:"Microsoft YaHei"; */
+	}
+.center_content a {
+	/*color: #227191;*/
+	outline: 0;
+	font-weight: normal;
+	text-decoration: none;
+	color:#009435;
+	font-size:13px;
+}
+.center_content a:hover {
+	text-decoration: none;
+	color: #de5800;
+}
+.help_detail img{
+	width:520px;
+	margin-left:10px;
+	}
+
+li {
+	list-style: none;cursor:pointer;
+}
+
+.content_top{
+	height:140px;
+	width:100%;
+	/* margin-top:4px; */
+	}
+.content_top img{
+	height:140px;
+	width:100%;
+	}
+.help{
+	width:50%;
+/*	border:1px solid #000;*/
+	margin:0 auto;
+	text-align:left;
+	}
+.help_title{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	border-bottom:1px solid #F5F4F3;
+	}
+.inline{
+	width:3px;
+	height:15px;
+	background:#2AAE5C;
+	float:left;
+	margin-top:18px;
+	margin-right:20px;
+	}
+.title{
+	color:#2AAE5C;
+	font-size:15px;
+	}
+.help_detail{
+	width:100%;
+	margin:0 auto;
+	}
+.servicebox {
+	width: 100%;
+}
+.servicebox .textbox {
+	width: 100%;
+	height: 600px;
+	/*background: #f7f7f7;*/
+}
+.servicebox .left_textbox {
+	width: 20%;
+	float: left;
+	background: #eee;
+	height: 550px;
+}
+.servicebox .left_textbox li a {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	display: block;
+	/*border-bottom: 1px dashed #ccc;*/
+	text-indent: 6px;
+	color:#333;
+}
+.servicebox .left_textbox li a:hover {
+	background: #009435;
+	color: #FFF;
+}
+.company_current {
+	background-color: #009435;
+	
+}
+.company_current span{color:#fff;
+	}
+.servicebox .right_textbox {
+	width: 80%;
+	height:550px;
+	float: left;
+	background-color:#f5f5f5;
+}
+.servicebox .right_textbox .title {
+	width: 100%;
+	color: #000;
+	display: block;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	line-height: 40px;
+	padding:0;
+	background:#f5f5f5;
+	text-indent:20px;
+	border-bottom: 1px  solid #ccc;
+}
+.servicebox .right_textbox .subtitle {
+	width: 100%;
+	color: #000;
+	display: block;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	line-height: 40px;
+	text-indent:20px;
+	padding:0;
+}
+.servicebox .right_textbox .content {
+	color: #333;
+	display: block;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	line-height: 30px;
+	width: 100%;
+	text-indent:20px;
+
+}
+.servicebox .right_textbox img{
+	max-width:700px;
+	display:block; 
+	margin-top:10px;
+	}
+	
+.servicebox .right_textbox .imgtext	{
+		text-align:center;
+		margin:10px 0 10px 0; 
+		}
+		
+.contenttitle{
+	text-align:center;
+	}
+.contenttitle a{
+	float:left;
+	font-size:14px;
+	color:#333;	
+	}
+.subtitle table{ 
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	}
+.subtitle table th {
+	
+	font-size: 16px;
+	text-indent:10px;
+	width:30%;
+}
+.subtitle table td p {
+	font-size: 15px;
+	line-height: 24px;
+	margin: 6px 0 6px 0;
+	text-indent:10px;
+	width:100%;
+}
